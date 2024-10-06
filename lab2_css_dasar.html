@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2Web</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style_eksternal.css">
+
+    <style>
+        body {
+            /* Rubah */
+            font-family: "Poppins", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        header {
+            align-content: center;
+            padding: 20px 40px;
+            min-height: 40px;
+            background-color: #0b6b3a;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: wheat;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        h1 i {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>CSS Internal dan <i>Inline CSS</i></h1>
+    </header>
+    <nav>
+        <a href="lab2_css_dasar.html">CSS Dasar</a>
+        <a href="lab2_css_eksternal.html">CSS Eksternal</a>
+        <a href="lab1_tag_dasar.html">HTML Dasar</a>
+    </nav>
+    <!-- CSS ID Selector -->
+    <div id="intro">
+        <h1>Hello World</h1>
+        <p style="text-align: left /* Rubah */ ; color: #fff;" </p>Kami sedang belajar HTML dan CSS dasar, pada mata
+            kuliah
+            <b>Pemrograman
+                Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat
+            adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML
+            dan CSS.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sint, eius rerum enim libero dignissimos
+            aliquam eveniet at excepturi suscipit repellendus reiciendis unde earum eaque laborum consectetur architecto
+            eligendi. Ratione saepe omnis optio et inventore? Repudiandae, aliquam neque soluta aperiam ad quam
+            perspiciatis libero accusantium exercitationem harum dolorem! Illo, obcaecati!
+        </p>
+        <!-- CSS Class Selector -->
+        <a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
+    </div>
+
+    <section class="univ">
+        <div class="informasi-univ">
+            <h2>Universitas Pelita Bangsa</h2>
+            <p>Merupakan sebuah kampus yang berada di cikarang selatan
+                yang berakreditasi B : "Baik". Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis at minima
+                impedit eius sed repudiandae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum est
+                at temporibus quia nostrum laudantium velit eius, cumque similique tempore id expedita tenetur
+                reprehenderit laborum tempora aliquam inventore repellendus minus! Fuga velit qui recusandae harum
+                repudiandae ab maiores animi nihil.
+            </p>
+        </div>
+
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126918.52289216277!2d107.08816635103629!3d-6.236841400777387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699b0c08ad8d01%3A0x2b18001d1b1371f9!2sUNIVERSITAS%20PELITA%20BANGSA!5e0!3m2!1sid!2sid!4v1728198227395!5m2!1sid!2sid"
+                width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+</body>
+
+</html>
